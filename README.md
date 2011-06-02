@@ -1,7 +1,7 @@
 #Overview
 
 
-I share the table view I use for my project. 
+I share the table view I'm using for my project. 
 
 From the work of [__jslewis__](https://github.com/jslewis/sctable)
 Thanks a lot to him !
@@ -76,22 +76,22 @@ The table view header subclasses SC.CollectionView, and the table body subclasse
 # View
 
 
-GX.TableView = SC.TableView.design({  
-	contentBinding: 'GX.myController.arrangedObjects',
-	selectionBinding: 'GX.myController.selection',  
-	columnsBinding: 'GX.myController.columns',
+	GX.TableView = SC.TableView.design({  
+		contentBinding: 'GX.myController.arrangedObjects',
+		selectionBinding: 'GX.myController.selection',  
+		columnsBinding: 'GX.myController.columns',
 	
-  headerHeight:22,
-  rowHeight:20,
-  canReorderContent: NO,
-  allowDeselectAll: NO,
-  canDeleteContent: YES,
-	showAlternatingRows: YES,
-	delegate: SC.TableDelegate,
-	exampleView: SC.TableRowView,
+	  headerHeight:22,
+	  rowHeight:20,
+	  canReorderContent: NO,
+	  allowDeselectAll: NO,
+	  canDeleteContent: YES,
+		showAlternatingRows: YES,
+		delegate: SC.TableDelegate,
+		exampleView: SC.TableRowView,
 	
 
-});
+	});
 
 
 # Utilies
@@ -115,4 +115,3 @@ You can use this function to make it work :
 #Dependencies
 
   * [__Sproutcore__](http://www.github.com/sproutcore/sproutcore) (versions 1.4-stable through 1.5.0.pre.4)
-
