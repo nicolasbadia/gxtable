@@ -27,7 +27,7 @@ Design Goals:
 Cool features:
 
   * Sort the columns and use a delegate for this
-  * Reoder, resize and save the changes with SC.UsersDefault (local storage)
+  * Reorder, resize and save the changes with SC.UsersDefault (local storage)
   * Hide/show columns with a PickerPane (and a radioView) and also save this choice
 
 
