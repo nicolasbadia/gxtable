@@ -98,6 +98,10 @@ The table view header subclasses SC.CollectionView, and the table body subclasse
 	
 You can use this function to make it work :
 
+	String.prototype.hasVal = function(value) {
+		return this.indexOf(value) !== -1;
+	};
+
 
 	function inArray(object, array) {
 		if (array.get('length')===0) return false;
@@ -107,7 +111,6 @@ You can use this function to make it work :
 
 	// To disable the native context menu
 	document.oncontextmenu = new Function("return false");
-
 
 
 
